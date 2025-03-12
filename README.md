@@ -65,10 +65,25 @@ In this example I'm using 2 of the 10 channel [SHEHDS RGBWA+UV](https://shehds.c
 - Select the ESPixelStick device and press the Visualize button
 - Drag both Fixtures onto pixel port 8.  make sure they are in the correct order with the DMX address 1 fixture first.
 
-<img src="./img/xlights_dmx_sequence.png" width="400">
+<img src="./img/xlights_dmx_sequence.png" width="600">
 
 - On the Sequencer tab, start a new animation sequence
-- add a DMX thing to each fixture
+- add a DMX flood light to each fixture
 
 ## Testing
+- Make sure all your DMX fixtures are connected and powered up.
 
+<img src="./img/xlights_testing_1.png" width="800">
+  
+- Click the Output to light button in xLights
+- Click on DMXFloodlight in the sequence window
+- Slide Channel 1 up to 255
+- Slide Channel 2 up to 255
+- The first light should turn red
+
+<img src="./img/xlights_testing_2.png" width="800">
+
+- Click on DMXFloodlight-2 in the sequence window
+- Slide Channel 1 up to 255
+- Slide Channel 4 up to 255
+- The first light should trun blue
