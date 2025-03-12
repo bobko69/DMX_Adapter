@@ -16,10 +16,12 @@ This diagram shows the needed connections for the adapter board.
 
 ## ESPixelStick Firmware Install
 You can use the online installer to install the ESPixelStick firmware on your 8 Port LED Distro.  Use a USB-C cable to connect your 8 Port LED Distro to a computer.  Open a browser to the online installer: https://espixelstickwebflasher.from-ct.com:5000/
+
 <img src="./img/espixelstick_version.png" width="400">
 
 - Under verion pick a 4.0 version
 - Under platform pick 'ESP32 BONG 69'
+
 <img src="./img/espixelstick_ipaddress.png" width="400">
 
 - Uncheck use DHCP and give your board an ip address, netmask, gateway, and primary dns.
