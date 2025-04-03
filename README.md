@@ -1,4 +1,25 @@
-# DMX Adapter for the 8 Port LED Distro
+# DMX Adapter
+<img src="./img/DMX_Adapter_top.png" width="400">
+
+## What is it?
+This is a DMX Adaptor.  It lets you control DMX lights with any controller that can run ESPixelStick firmware version 4.0.
+
+## Where can I get one?
+The DMX Adaptor board is available for purchase at Wasatch Lights.
+
+## Specifications		
+- Voltage: 5v to 24v
+-	Input connector: Male xConnect
+-	Output connector: Female 3 pin XLR
+-	Total length: 19.5" (49.5cm)
+	
+-	Surge protection on DMX output
+-	Reverse polarity protection on input voltage
+-	DMX transmition only
+-	Use the QR code for set up information
+
+<img src="./img/DMX_Adapter_pcb.png" width="400">
+<img src="./img/DMX_Adapter_side.png" width="400">
 
 DMX Output is possible on the 8 Port LED Distro.  You need to install ESPixelStick firmware.  ESPixelStick allows you to change one of the outputs to use the DMX protocol.
 This video has more detail about DMX and the xlights set up: (https://youtube.com/watch?v=aNw_iXwn4mw&si=04DVH85MfxVccUhA)
