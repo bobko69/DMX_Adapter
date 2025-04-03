@@ -2,21 +2,20 @@
 <img src="./img/DMX_Adapter_top.png" width="400">
 
 ## What is it?
-This is a DMX Adaptor.  It lets you control DMX lights with any controller that can run ESPixelStick firmware version 4.0.
+This is a DMX Adapter.  It lets you control DMX lights with any controller that can run ESPixelStick firmware version 4.0.
 
 ## Where can I get one?
-The DMX Adaptor board is available for purchase at Wasatch Lights.
+The DMX Adapter board is available for purchase at [Wasatch Lights](https://wasatchlights.com/products/).
 
 ## Specifications		
 - Voltage: 5v to 24v
--	Input connector: Male xConnect
--	Output connector: Female 3 pin XLR
--	Total length: 19.5" (49.5cm)
-	
--	Surge protection on DMX output
--	Reverse polarity protection on input voltage
--	DMX transmition only
--	Use the QR code for set up information
+- Input connector: Male xConnect
+- Output connector: Female 3 pin XLR
+- Total length: 19.5" (49.5cm)	
+- Surge protection on DMX output
+- Reverse polarity protection on input voltage
+- DMX transmission only
+- Use the QR code for set up information
 
 <img src="./img/DMX_Adapter_pcb.png" width="400">
 <img src="./img/DMX_Adapter_side.png" width="400">
@@ -24,12 +23,12 @@ The DMX Adaptor board is available for purchase at Wasatch Lights.
 DMX Output is possible on the 8 Port LED Distro.  You need to install ESPixelStick firmware.  ESPixelStick allows you to change one of the outputs to use the DMX protocol.
 This video has more detail about DMX and the xlights set up: (https://youtube.com/watch?v=aNw_iXwn4mw&si=04DVH85MfxVccUhA)
 
-## Hardware setup
-You can make a DMX cable with the XY-485 a TTL to RS485 adapter.  This adapter is available on amazon and aliexpress.
+## Can I make my own?
+You can make a DMX Adapter with the XY-485 a TTL to RS485 PCB.  This PCB is available on amazon and aliexpress.
 
 <img src="./img/XY-485_both_outlines_sm.png" width="400">
 
-There are lots of RS485 adapters.  Make sure to get the one labeled 'XY-485' and '3.3-33V'.  The step down converter will convert an input voltage of 5v-24v down to the 3.3v this circuit needs.
+There are lots of RS485 PCBs.  Make sure to get the one labeled 'XY-485' and '3.3-33V'.  The step down converter will convert an input voltage of 5v-24v down to the 3.3v this circuit needs.
 
 <img src="./img/XY-485_hookup.png" width="400">
 
