@@ -88,4 +88,4 @@ In this example I'm using 2 of the 10 channel [SHEHDS RGBWA+UV](https://shehds.c
 - Click on DMXFloodlight-2 in the sequence window
 - Slide Channel 1 up to 255
 - Slide Channel 4 up to 255
-- The first light should turn blue
+- The second light should turn blue
